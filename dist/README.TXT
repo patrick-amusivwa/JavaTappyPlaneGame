@@ -2,31 +2,31 @@
 BUILD OUTPUT DESCRIPTION
 ========================
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
+At the point when you fabricate a Java application project that has a fundamental class, the IDE
+naturally duplicates the entirety of the Container
+documents on the tasks classpath to your ventures dist/lib organizer. The IDE
+additionally adds every one of the Container records to the Class-Way component in the application
+Container documents manifest record (MANIFEST.MF).
 
-To run the project from the command line, go to the dist folder and
-type the following:
+To run the undertaking from the order line, go to the dist envelope and
+type the accompanying:
 
-java -jar "TappyPlaneGame.jar" 
+java - container "TappyPlaneGame.jar"
 
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
+To disperse this venture, speed up the dist envelope (counting the lib organizer)
+also, appropriate the Compress document.
 
 Notes:
 
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
+* On the off chance that two Container records on the undertaking classpath have a similar name, just the first
+Container record is duplicated to the lib organizer.
+* Just Container records are duplicated to the lib organizer.
+If the classpath contains different sorts of records or envelopes, these documents (envelopes)
+are not replicated.
+* In the event that a library on the undertakings classpath likewise has a Class-Way component
+determined in the manifest,the content of the Class-Way component must be on
+the undertakings runtime way.
+* To set a principal class in a standard Java project, right-click the undertaking hub
+in the Undertakings window and pick Properties. Then, at that point, click Run and enter the
+class name in the Primary Class field. On the other hand, you can physically type the
+class name in the manifest Primary Class component.
